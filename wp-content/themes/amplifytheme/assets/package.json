@@ -1,0 +1,22 @@
+{
+  "name": "amplifytheme",
+  "version": "1.0.0",
+  "description": "amplifythem complier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wordpress",
+    "theme"
+  ],
+  "author": "Amila Priyankara",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "sass": "^1.43.2"
+  },
+  "dependencies": {
+    "gulp-sass": "^5.0.0"
+  }
+}

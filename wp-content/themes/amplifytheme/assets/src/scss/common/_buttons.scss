@@ -1,0 +1,21 @@
+.button {
+  background: #655dff 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  text-align: left;
+  font: normal normal bold 18px/21px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  padding: 16px 32px !important;
+  &.cta-button {
+    letter-spacing: 0px;
+    color: #655dff;
+    a {
+      color: #655dff !important;
+    }
+  }
+  &.transparent-blue-border-button {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 2px solid #655dff;
+  }
+}
