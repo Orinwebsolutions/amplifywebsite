@@ -7,7 +7,7 @@ function build() {
   return gulp
     .src("./src/scss/**/*.scss")
     .pipe(sass().on("error", sass.logError))
-    .pipe(gulp.dest("./"));
+    .pipe(gulp.dest("./css"));
 }
 
 exports.build = build;

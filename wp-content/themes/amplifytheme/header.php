@@ -17,5 +17,3 @@
     <header id="masthead" class="site-header" role="header">
         <?php get_template_part('template-parts/header/nav')?>
     </header>
-    <div id="content">
-        <div class="container">

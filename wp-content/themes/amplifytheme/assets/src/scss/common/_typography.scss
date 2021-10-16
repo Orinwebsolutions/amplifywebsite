@@ -1,0 +1,39 @@
+p,
+li,
+span {
+  font-size: 18px;
+  font-family: "Inter", sans-serif, Arial;
+}
+.text-white {
+  color: #ffffff;
+}
+.section-headings {
+  font-size: 38px;
+  font-weight: bold;
+  font-style: normal;
+  font-family: "Manrope", sans-serif, Arial;
+  letter-spacing: 0px;
+  color: #0f1779;
+  margin-bottom: 32px;
+}
+ul {
+  &.check-list {
+    list-style-image: url("../img/check-square.png");
+    li {
+      margin-bottom: 32px;
+    }
+  }
+}
+.enlarge-number {
+  font-size: 66px;
+  font-weight: 600;
+  font-style: normal;
+  font-family: "Manrope", sans-serif, Arial;
+  color: #0f1779;
+}
+.light-gray-text {
+  color: #919dab;
+}
+.text-center {
+  text-align: center;
+}

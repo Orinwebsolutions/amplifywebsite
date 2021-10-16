@@ -1,3 +1,106 @@
+footer {
+  padding: 0;
+  background: #151b25 0% 0% no-repeat padding-box;
+  color: #ffffff;
+  letter-spacing: 0px;
+  text-align: left;
+}
+footer .top {
+  padding: 65px 0 55px;
+}
+footer .top .col-md {
+  padding: 0;
+}
+footer .vision-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #ffffff;
+  opacity: 0.9;
+  font-family: "Inter", sans-serif, Arial;
+}
+footer .widget_nav_menu .widget-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  color: #ffffff;
+  opacity: 1;
+  margin-bottom: 24px;
+}
+footer .widget_nav_menu .menu {
+  list-style: none;
+  padding: 0;
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  column-count: 2;
+  column-gap: 20px;
+}
+footer .widget_nav_menu .menu .menu-item {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.9;
+  padding: 8px 0;
+}
+footer .widget_nav_menu .menu .menu-item a {
+  color: #ffffff;
+  font-family: "Inter", sans-serif, Arial;
+  padding: 0;
+}
+footer .signup h1,
+footer .signup h2,
+footer .signup h3,
+footer .signup h4,
+footer .signup h5 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  opacity: 0.9;
+  font-family: "Manrope", sans-serif, Arial;
+}
+footer .signup form .form-wrapper {
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+}
+footer .signup form .form-wrapper input[type=submit] {
+  background: #655dff 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  border: none;
+  box-sizing: unset;
+  box-shadow: none;
+  padding: 8px 16px;
+  color: #fff;
+}
+footer .signup form .form-wrapper input[type=text] {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #00000033;
+  border-radius: 3px;
+  padding: 10px 12px;
+  max-width: 200px;
+}
+footer .signup form .form-wrapper span.wpcf7-spinner {
+  margin: auto 0;
+}
+footer .copyright {
+  text-align: left;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  padding: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+footer .copyright p {
+  margin: 0;
+  padding: 15px 0;
+}
+footer .copyright * {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 header {
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #00000014;
@@ -12,7 +115,9 @@ header .container .navbar .nav-item {
 }
 header .container .navbar .nav-item .nav-link, header .container .navbar .nav-item .dropdown-item {
   text-align: left;
-  font: normal normal 600 18px/23px;
+  font-weight: 600;
+  font-size: 18px;
+  font-style: normal;
   letter-spacing: 0.01px;
   color: #141b25;
   opacity: 1;
@@ -25,24 +130,183 @@ header .container .navbar .logo {
   float: left;
 }
 
-.button {
+.button, .button.fill-bg a {
   background: #655dff 0% 0% no-repeat padding-box;
   border-radius: 4px;
   text-align: left;
-  font: normal normal bold 18px/21px;
+  font-weight: bold;
+  font-size: 18px;
+  font-style: normal;
+  font-family: "Inter", sans-serif, Arial;
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
   padding: 16px 32px !important;
+  margin: 0;
 }
-.button.cta-button {
+.button.cta-button, .button.fill-bg a.cta-button {
   letter-spacing: 0px;
   color: #655dff;
 }
-.button.cta-button a {
+.button.cta-button a, .button.fill-bg a.cta-button a {
   color: #655dff !important;
 }
-.button.transparent-blue-border-button {
+.button.transparent-blue-border-button, .button.fill-bg a.transparent-blue-border-button {
   background: #ffffff 0% 0% no-repeat padding-box;
   border: 2px solid #655dff;
+}
+.button.fill-bg a {
+  padding: 0 !important;
+  color: #ffffff !important;
+}
+
+/*----------------*/
+p,
+li,
+span {
+  font-size: 18px;
+  font-family: "Inter", sans-serif, Arial;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.section-headings {
+  font-size: 38px;
+  font-weight: bold;
+  font-style: normal;
+  font-family: "Manrope", sans-serif, Arial;
+  letter-spacing: 0px;
+  color: #0f1779;
+  margin-bottom: 32px;
+}
+
+ul.check-list {
+  list-style-image: url("../img/check-square.png");
+}
+ul.check-list li {
+  margin-bottom: 32px;
+}
+
+.enlarge-number {
+  font-size: 66px;
+  font-weight: 600;
+  font-style: normal;
+  font-family: "Manrope", sans-serif, Arial;
+  color: #0f1779;
+}
+
+.light-gray-text {
+  color: #919dab;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+.full-width .container-wrapper {
+  display: flex;
+  margin: auto;
+}
+@media screen and (min-width: 576px) {
+  .full-width .container-wrapper {
+    max-width: 540px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .full-width .container-wrapper {
+    max-width: 720px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .full-width .container-wrapper {
+    max-width: 960px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .full-width .container-wrapper {
+    max-width: 1140px;
+  }
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.gutter-top {
+  padding-top: 56px;
+}
+
+.gutter-bottom {
+  padding-bottom: 56px;
+}
+
+.zero-margin {
+  margin: 0;
+}
+
+.custom-gutter {
+  padding-right: 100px;
+}
+
+.slider-banner-image {
+  background: #0845a7 0% 0% no-repeat padding-box;
+}
+.slider-banner-image .banner-content {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  color: #ffffff;
+}
+.slider-banner-image .banner-content .slider-content {
+  margin-bottom: 90px !important;
+}
+.slider-banner-image .banner-content .width-50 {
+  width: 50%;
+}
+.slider-banner-image .banner-content .banner_heading {
+  font-size: 58px;
+  font-weight: normal;
+  font-style: normal;
+  font-family: "Manrope", sans-serif, Arial;
+  margin-top: 65px;
+  margin-bottom: 25px;
+}
+.slider-banner-image .banner-content .banner_sub_heading {
+  margin-bottom: 40px;
+  max-width: 468px;
+  font-family: "Inter", sans-serif, Arial;
+}
+.slider-banner-image .banner-content .owl-dots {
+  display: flex;
+  justify-content: end;
+}
+@media screen and (min-width: 576px) {
+  .slider-banner-image .banner-content {
+    max-width: 540px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .slider-banner-image .banner-content {
+    max-width: 720px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .slider-banner-image .banner-content {
+    max-width: 960px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .slider-banner-image .banner-content {
+    max-width: 1140px;
+  }
 }

@@ -2,11 +2,15 @@
   background: #655dff 0% 0% no-repeat padding-box;
   border-radius: 4px;
   text-align: left;
-  font: normal normal bold 18px/21px;
+  font-weight: bold;
+  font-size: 18px;
+  font-style: normal;
+  font-family: "Inter", sans-serif, Arial;
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
   padding: 16px 32px !important;
+  margin: 0;
   &.cta-button {
     letter-spacing: 0px;
     color: #655dff;
@@ -17,5 +21,12 @@
   &.transparent-blue-border-button {
     background: #ffffff 0% 0% no-repeat padding-box;
     border: 2px solid #655dff;
+  }
+  &.fill-bg {
+    a {
+      @extend .button;
+      padding: 0 !important;
+      color: #ffffff !important;
+    }
   }
 }

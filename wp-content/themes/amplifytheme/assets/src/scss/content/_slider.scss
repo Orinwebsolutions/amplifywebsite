@@ -1,0 +1,44 @@
+.slider-banner-image {
+  background: #0845a7 0% 0% no-repeat padding-box;
+  .banner-content {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    color: #ffffff;
+    .slider-content {
+      margin-bottom: 90px !important;
+    }
+    .width-50 {
+      width: 50%;
+    }
+    .banner_heading {
+      font-size: 58px;
+      font-weight: normal;
+      font-style: normal;
+      font-family: "Manrope", sans-serif, Arial;
+      margin-top: 65px;
+      margin-bottom: 25px;
+    }
+    .banner_sub_heading {
+      margin-bottom: 40px;
+      max-width: 468px;
+      font-family: "Inter", sans-serif, Arial;
+    }
+    .owl-dots {
+      display: flex;
+      justify-content: end;
+    }
+    @include min-ms {
+      max-width: 540px;
+    }
+    @include min-sm {
+      max-width: 720px;
+    }
+    @include min-md {
+      max-width: 960px;
+    }
+    @include min-lg {
+      max-width: 1140px;
+    }
+  }
+}
